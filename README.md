@@ -15,3 +15,7 @@ git clone https://github.com/integralist/vim-mypy ~/.vim/bundle/vim-mypy
 ```
 Plugin 'integralist/vim-mypy'
 ```
+
+## Alternatives
+
+It seems both [Syntastic](https://github.com/vim-syntastic/syntastic) and [Neomake](https://github.com/neomake/neomake) include support for MyPy.
