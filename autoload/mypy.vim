@@ -7,8 +7,9 @@
 "
 " Add mypy# prefix to any calls for ExecuteMyPy
 " Vim will search in this autoload directory for the function
+" Note: the function defined here also needs the mypy# prefix
 
-function ExecuteMyPy()
+function mypy#ExecuteMyPy()
   silent !clear
   execute "!mypy " . bufname("%")
 endfunction
