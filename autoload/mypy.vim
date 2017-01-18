@@ -11,5 +11,5 @@
 
 function mypy#ExecuteMyPy()
   silent !clear
-  execute "!mypy " . bufname("%")
+  execute "!mypy --ignore-missing-imports --follow-imports=skip --fast-parser " . bufname("%")
 endfunction
